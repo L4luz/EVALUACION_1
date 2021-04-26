@@ -1,42 +1,83 @@
-.cuadro{
-  height:50rem;
-  background-color: black;
-  display: block;
-  font-family: sans-serif;
+body{
+  margin: 0;
+}
+header{
+  width: 100%;
+  background: #4E94AB;
+}
+#btn-menu{
+  display: none;
+}
+header label{
+  display: none;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+header label:hover{
+  cursor: pointer;
+  background: rgba(0, 0,0,0.3);
+}
+.menu ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
 }
 .menu li{
-  text-decoration: none;
-  list-style: none;
-  color: aliceblue;
+border-right: 1px solid #fff;
+margin-top: 2rem;
 }
 .menu li a{
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
   text-decoration: none;
-  list-style: none;
-  color: aliceblue;
 }
-.menu {
+.menu li:hover{
+  background: rgba(0, 0,0,0.3);
+}
+
+@media(max-width: 768px) 
+{
+ header label{
+   display: block;
+ }   
+ .menu{
+   position: absolute;
+   background: #4E94AB;
+   width: 70%;
+   margin-left: -70%;
+   transition: all 0.5s;
+
+ }
+ .menu ul{
+   flex-direction: column;
+}
+.menu li{
+  border-top: 1px solid #fff;
+}
+
+#btn-menu:checked ~ .menu{
+  margin: 0;
+
+}
+
+}
+
+.izquierda{
   width: 20%;
-  height:50rem;
-  background-color: black;
-  display: block;
-  float: left;
-  text-decoration: none;
-  list-style: none;
-  
+  height:100%;
 }
-.menu a:hover{
-	color: gray;
-}
-.cuadroRestante{
+.derechas{
   width: 80%;
-  height:50rem;
-  display: block;
-  float: right;
-  background-color:brown;
+  height:100%;
 }
-.icono
-{
+.icono{
+  margin-left: 5rem;
 }
-.titulo
-{
+.titulos{
+  margin-left: 5rem;
 }
