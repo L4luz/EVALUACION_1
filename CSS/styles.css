@@ -8,6 +8,15 @@ header{
 #btn-menu{
   display: none;
 }
+.imagenes{
+  margin:auto;
+  max-width: 38rem;
+  margin-top: 1rem;
+  }
+  .tituloinicio{
+    margin-left: 5rem;
+    margin-top: 1rem;
+  }
 header label{
   display: none;
   width: 32px;
@@ -39,7 +48,9 @@ margin-top: 2rem;
 .menu li:hover{
   background: rgba(0, 0,0,0.3);
 }
-
+.cuadroRestante2{
+  border: 1px solid #4E94AB;
+}
 @media(max-width: 768px) 
 {
  header label{
@@ -51,8 +62,11 @@ margin-top: 2rem;
    width: 70%;
    margin-left: -70%;
    transition: all 0.5s;
-
  }
+ .cuadroRestante2{
+   border: 1px solid #4E94AB;
+ }
+
  .menu ul{
    flex-direction: column;
 }
