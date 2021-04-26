@@ -64,7 +64,7 @@ margin-top: 2rem;
    transition: all 0.5s;
  }
  .cuadroRestante2{
-   border: 1px solid #4E94AB;
+  border:#4E94AB 4px solid;
  }
 
  .menu ul{
@@ -94,4 +94,54 @@ margin-top: 2rem;
 }
 .titulos{
   margin-left: 5rem;
+}
+.cuadro2{
+  height: 50%;
+  background-color: white;
+  color: black;
+display: block;
+  border:#4E94AB 1px solid;
+}
+.cuadro2{
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 6px;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: 5rem;
+  
+}
+h2{
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.buscar{
+  padding-block: 3rem;
+  margin-top: 300px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-color: black;
+
+}
+.textoBuscar{
+  background-color: white;
+
+  display: block;
+  text-align: center;
+}
+.parrafo{
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.imagen{
+  max-height: 200px;
+  max-width: 300px;
+  text-align:left
+}
+.descripcion{
+  display: block;
 }
